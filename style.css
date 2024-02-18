@@ -1,0 +1,56 @@
+.testClass {
+    margin: 8px 32px 32px 16px;
+    padding: 32px 16px 32px 16px;
+    
+    border: 1px solid rgb(0, 0, 0);
+ 
+}
+
+
+.paragrafClass :first-child{
+    border: 1px solid red;
+}
+.paragrafClass :last-child{
+    border: 1px solid red;
+}
+.paragrafClass :nth-child(3){
+    border: 1px solid red;
+}
+
+
+
+.test1Class {
+    height: 75px;
+    width: 75px;
+    border: 3px solid red;
+}
+.test1Class :hover {
+    border-color: blue;
+}
+
+.test2Class {
+    height: 50px;
+    width: 250px;
+    background-color: gold;
+    position: relative;
+}
+
+.test3Class {
+    height: 50%; 
+    width: 25%; 
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.test4Class::after{
+    content: "dupa";
+    color: red;
+    margin-left: 6px;
+}
+.test4Class::before{
+    content: "inainte";
+    color: red;
+    margin-right: 6px;
+}
